@@ -1,11 +1,19 @@
 # Discrete All-N-Channel MOSFET H-Bridge Motor Driver
 
 A complete open-source hardware and software project featuring an **all-N-channel discrete MOSFET H-Bridge motor driver** with bootstrap high-side drivers, designed from scratch without dedicated driver ICs. 
+<img width="4032" height="3024" alt="wired" src="https://github.com/user-attachments/assets/d77045c6-b268-4f54-ab34-db64c1e2001c" />
 
 The project includes:
 1. **KiCad Hardware Design**: Complete schematic and single-sided PCB layout optimized for DIY home chemical etching (toner transfer method).
 2. **Fabrication Files**: 1:1 scale mirrored PDF plot files ready for laser printing on glossy paper.
 3. **Arduino Library (`DiscreteHBridge`)**: A plug-and-play Arduino library with built-in bootstrap capacitor protection, dynamic braking, directional dead-time, and smooth acceleration ramping.
+
+demo video
+
+
+https://github.com/user-attachments/assets/6690fb17-f7f0-4ddb-84b6-009d78a60835
+
+
 
 ---
 
@@ -117,9 +125,16 @@ void loop() {
 
 1. **Printing:** Print `Hardware/Fabrication/H_Bridge_motor_driver-F_Cu.pdf` at **100% scale (no fit to page)** on magazine paper or toner transfer paper using a laser printer.
 2. **Transfer:** Iron onto single-sided copper clad board for ~3–5 minutes at high heat.
-3. **Etching:** Etch in ferric chloride ($FeCl_3$) solution with agitation. The wide 1.5mm ground plane clearance prevents accidental shorts.
-4. **Drilling:** KiCad drill marks are exported with "Small" pilot dimples to prevent drill bit wander when drilling by hand.
-5. **Component Mounting:** All components are mounted on the copper side (`F.Cu`). Ensure 2mm–3mm standoffs on screw terminals and electrolytic capacitors for soldering iron access.
+   <img width="3024" height="4032" alt="toner_transfered" src="https://github.com/user-attachments/assets/ac0ec7ba-83a8-415b-962a-2fead6ae915e" />
+4. **Etching:** Etch in ferric chloride ($FeCl_3$) solution with agitation. The wide 1.5mm ground plane clearance prevents accidental shorts.
+5. <img width="3024" height="4032" alt="Eitching_Process" src="https://github.com/user-attachments/assets/90380030-1a38-4ce1-8130-70c7153ea3e7" />
+
+6. **Drilling:** KiCad drill marks are exported with "Small" pilot dimples to prevent drill bit wander when drilling by hand.
+7. <img width="4032" height="3024" alt="final_PCB" src="https://github.com/user-attachments/assets/81ddf780-7f3a-4cdf-8fb5-ac72096a30f4" />
+
+8. **Component Mounting:** All components are mounted on the copper side (`F.Cu`). Ensure 2mm–3mm standoffs on screw terminals and electrolytic capacitors for soldering iron access.
+9. <img width="4032" height="3024" alt="final_soldered" src="https://github.com/user-attachments/assets/dd8e0d39-c3ae-4d8a-b8c1-178a120e3748" />
+
 
 ---
 
