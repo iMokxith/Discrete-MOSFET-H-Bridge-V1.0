@@ -1,0 +1,25 @@
+# KiCad temporary & auto-generated files
+*.kicad_prl
+*.bak
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*.net
+*.drl
+*.gbrjob
+*.csv
+.history/
+
+# OS specific files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Arduino build artifacts
+*.hex
+*.elf
+*.o
+*.bin
+build/

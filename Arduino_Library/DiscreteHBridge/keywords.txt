@@ -1,0 +1,26 @@
+#######################################
+# Syntax Highlighting for DiscreteHBridge
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DiscreteHBridge	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+drive	KEYWORD2
+forward	KEYWORD2
+reverse	KEYWORD2
+brake	KEYWORD2
+stop	KEYWORD2
+rampTo	KEYWORD2
+setMaxDutyCycle	KEYWORD2
+setReverseDeadTime	KEYWORD2
+invertDirection	KEYWORD2
+getCurrentSpeed	KEYWORD2
+getDirection	KEYWORD2
