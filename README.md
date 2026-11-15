@@ -33,7 +33,9 @@ The project includes:
 │   ├── H_Bridge_motor_driver.kicad_pcb      # Single-layer routed PCB
 │   └── Fabrication/                         # Etching transfer sheets
 │       ├── H_Bridge_motor_driver-F_Cu.pdf   # 1:1 Mirrored copper layer
-│       └── H_Bridge_motor_driver-Edge_Cuts.pdf # Board outline
+│       ├── H_Bridge_motor_driver-Edge_Cuts.pdf # Board outline
+│       ├── H_Bridge_motor_driver-F_Silkscreen.pdf # Silkscreen assembly guide
+│       └── H_Bridge_motor_driver-F_Silkscreen_Mirrored.pdf # Mirrored for toner transfer
 │
 ├── Arduino_Library/                         # Arduino Driver
 │   └── DiscreteHBridge/                     # Installable Arduino library
