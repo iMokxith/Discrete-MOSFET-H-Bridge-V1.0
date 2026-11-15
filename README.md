@@ -25,8 +25,8 @@ https://github.com/user-attachments/assets/6690fb17-f7f0-4ddb-84b6-009d78a60835
 | **Logic Control Voltage** | 5V (Arduino Uno / Nano / Mega) | 3.3V compatible via BC547 base resistors |
 | **Control Interface** | 2-Wire Complementary (`IN_A`, `IN_B`) | Only 2 PWM pins required |
 | **Power Switches** | 4x N-Channel MOSFETs (IRFZ44N / IRFP150N) | Ultra-low $R_{DS(on)}$ |
-| **Gate Driver Stages** | 8x BJT Transistors (BC547 NPN + BC557 PNP) | Discrete push-pull stages |
-| **Bootstrap Circuit** | 1N4148 diodes + 10µF–100µF capacitors | High-side gate charge pumping |
+| **Gate Driver Stages** | BJT Transistors (11X BC547 NPN + 5X BC557 PNP) | Discrete push-pull stages |
+| **Bootstrap Circuit** | 1N4148 diodes + 1X 1000UF(Electrolatic) & 1UF(ceremic) capacitors | High-side gate charge pumping |
 | **Flyback Protection** | 4x 1N4007 / Fast Diodes (UF4007 / FR307) | Clamps inductive spikes across motor |
 | **PCB Layer** | Single-Layer (`F.Cu` / `B.Cu` compatible) | Optimized 1.5mm clearance for home etching |
 
